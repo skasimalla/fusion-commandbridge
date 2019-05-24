@@ -1,9 +1,11 @@
-The jar that is obtained after building this code, need to be placed somewhere and the location has to be updates in the config file and then fusion has to be restarted (This is a one time activity)
-./apps/jetty/connectors-classic/webapps/connectors-extra-classpath.txt
-./apps//jetty/api/webapps/api-extra-classpath.txt
+The jar that is obtained after building this code, need to be placed somewhere and the location has to be updated in the config file 
+and then fusion has to be restarted (This is a one time activity)
 
 in 3.x it is only
 ./apps/jetty/api/webapps/api-extra-classpath.txt
+
+In 4.x if the above doesn't work, try adding it to 
+./apps/jetty/connectors-classic/webapps/connectors-extra-classpath.txt
 
 
 Helpful resource
