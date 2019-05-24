@@ -2,8 +2,8 @@ The jar that is obtained after building this code, need to be placed somewhere a
 ./apps/jetty/connectors-classic/webapps/connectors-extra-classpath.txt
 ./apps//jetty/api/webapps/api-extra-classpath.txt
 
-in 3.x it isonly
-./apps//jetty/api/webapps/api-extra-classpath.txt
+in 3.x it is only
+./apps/jetty/api/webapps/api-extra-classpath.txt
 
 
 Helpful resource
