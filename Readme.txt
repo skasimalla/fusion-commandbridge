@@ -1,3 +1,14 @@
+The jar that is obtained after building this code, need to be placed somewhere and the location has to be updates in the config file and then fusion has to be restarted (This is a one time activity)
+./apps/jetty/connectors-classic/webapps/connectors-extra-classpath.txt
+./apps//jetty/api/webapps/api-extra-classpath.txt
+
+in 3.x it isonly
+./apps//jetty/api/webapps/api-extra-classpath.txt
+
+
+Helpful resource
+https://doc.lucidworks.com/fusion-server/4.2/search-development/getting-data-in/datasource-configuration/custom-javascript-indexing-stages.html#creating-and-accessing-java-types
+
 ################# For executing command ##################
 
 function doWork(doc) {
