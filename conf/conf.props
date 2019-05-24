@@ -1,0 +1,5 @@
+log4j.configFilePath = conf/log4j.properties
+######Summarizer####################
+summarizer.pythonScript = python conf/summarizer.py
+summarizer.sentences_percentage = 20%
+####################################
